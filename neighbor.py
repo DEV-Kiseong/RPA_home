@@ -46,8 +46,8 @@ class neighbor():
                     "password" : '//*[@id="pw"]',
                     "login"  : '//*[@id="log.login"]'
                 }
-        user_id = "lksday62"
-        user_pw = "@navks9562"
+        user_id = ""
+        user_pw = ""
         for login_key, login_value in login_info.items():
             if login_key == "login":
                 path = driver.find_element(By.XPATH, login_value)
